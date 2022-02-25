@@ -31,7 +31,7 @@
                                 </div>
                             </div>
                             <div class="layui-inline">
-                                <label class="layui-form-label">url</label>
+                                <label class="layui-form-label">URL</label>
                                 <div class="layui-input-inline">
                                     <input type="text" name="url" autocomplete="off" class="layui-input">
                                 </div>

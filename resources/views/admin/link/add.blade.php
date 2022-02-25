@@ -12,7 +12,7 @@
                 <input type="hidden" name="id" value="{{$link->id ?? ''}}">
                 <input type="hidden" name="Link[user_id]" value="{{get_login_user_id ()}}">
                 <div class="layui-form-item">
-                    <label class="layui-form-label">url <span class="color-red">*</span></label>
+                    <label class="layui-form-label">URL <span class="color-red">*</span></label>
                     <div class="layui-input-block ">
                         <input id="name" type="text" class="layui-input " name="Link[url]" maxlength="255"
                                autocomplete="off"
