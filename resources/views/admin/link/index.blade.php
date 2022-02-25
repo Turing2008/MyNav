@@ -92,7 +92,7 @@
                     {type: 'numbers'},
                     {field: 'category_name', title: '所属分类', hide: false, sort: true},
                     {field: 'title', title: '链接名称', hide: false},
-                    {field: 'url', title: 'url',width: 180},
+                    {field: 'url', title: 'URL',width: 180},
                     {field: 'description', title: '描述', width: 180, hide: false},
                     {field: 'sort', title: '排序号', width: 80, align: 'center', hide: false, sort: true},
                     {field: 'flag', title: '隐藏',width: 80, align: 'center'},
