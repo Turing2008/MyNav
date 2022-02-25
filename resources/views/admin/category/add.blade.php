@@ -14,7 +14,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">分类名称 <span class="color-red">*</span></label>
                     <div class="layui-input-block ">
-                        <input type="text" class="layui-input " name="Category[name]" maxlength="50"
+                        <input type="text" class="layui-input " name="Category[name]" maxlength="255"
                                autocomplete="off"
                                value="{{$category->name ?? ''}}">
                     </div>

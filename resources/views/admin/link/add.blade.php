@@ -22,7 +22,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">链接名称 <span class="color-red">*</span></label>
                     <div class="layui-input-block ">
-                        <input type="text" class="layui-input " name="Link[title]" maxlength="50"
+                        <input type="text" class="layui-input " name="Link[title]" maxlength="255"
                                autocomplete="off"
                                value="{{$link->title ?? ''}}">
                     </div>
