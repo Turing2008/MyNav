@@ -42,7 +42,7 @@
                 <div class="layui-form-item">
                     <label class="layui-form-label">排序 <span class="color-red">*</span></label>
                     <div class="layui-input-block">
-                        <input type="number" name="Link[sort]" value="{{$link->sort ?? 99}}" maxlength="100"
+                        <input type="number" name="Link[sort]" value="{{$link->sort ?? ''}}" maxlength="100"
                                autocomplete="off"
                                placeholder=""
                                class="layui-input">
