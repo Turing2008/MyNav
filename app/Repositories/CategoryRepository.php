@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 namespace App\Repositories;
 
@@ -18,24 +17,3 @@ class CategoryRepository extends BaseRepository implements InterfaceRepository
         return true;
     }
 }
-=======
-<?php
-namespace App\Repositories;
-
-
-use App\Models\Category;
-
-class CategoryRepository extends BaseRepository implements InterfaceRepository
-{
-
-    public function model ()
-    {
-        return Category::class;
-    }
-
-    public function allowDelete ($id)
-    {
-        return true;
-    }
-}
->>>>>>> 5f36fb6 (new)
