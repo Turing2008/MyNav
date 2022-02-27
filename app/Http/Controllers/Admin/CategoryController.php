@@ -39,7 +39,7 @@ class CategoryController extends Controller
         }
         if (request()->wantsJson()) {
             $limit = $request->input('limit', 15);
-            QueryWhere::defaultOrderBy('categories.id', 'ASC')->setRequest($request->all());
+            QueryWhere::defaultOrderBy('categories.sort', 'ASC')->setRequest($request->all());
             $M = $this->repository->makeModel()->select('categories.*');
             QueryWhere::like($M, 'categories.name');
             QueryWhere::like($M, 'categories.description');

@@ -41,7 +41,7 @@ class LinkController extends Controller
         }
         if (request ()->wantsJson ()) {
             $limit = $request->input ('limit', 15);
-            QueryWhere::defaultOrderBy ('links.id', 'ASC')->setRequest ($request->all ());
+            QueryWhere::defaultOrderBy ('links.sort', 'ASC')->setRequest ($request->all ());
             $M = $this->repository->makeModel ()->select ('links.*');
             QueryWhere::eq ($M, 'links.category_id');
             QueryWhere::like ($M, 'links.title');
