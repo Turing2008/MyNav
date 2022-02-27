@@ -55,7 +55,7 @@
                         @foreach($category->links as $link)
                             <a target="_blank" href="/url/{{$link->id}}">
                                 <div class="item">
-                                    <div class="no-logo"><img src="https://favicon.nosoxo.com/get.php?url={{$link->url}}" style="margin-right:1px;position: relative;top:3px;"width="16" height="16">{{$link->title}}</div>
+                                    <div class="no-logo"><img src="https://favicon.nosoxo.com/get.php?url={{$link->url}}" style="margin-right:5px;position: relative;top:3px;"width="16" height="16">{{$link->title}}</div>
                                     <div class="desc">{{$link->description}}</div>
                                 </div>
                             </a>
